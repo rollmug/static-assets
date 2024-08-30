@@ -4,7 +4,7 @@ services:
 
   mysql_wys:
     container_name: mysql_wys
-    image: mysql:8
+    image: mysql:8.0.37
     restart: always
     healthcheck: 
       test: ['CMD', 'mysqladmin', 'ping', '--silent']
